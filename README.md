@@ -22,7 +22,7 @@ This is a lightweight leave request bot using Line Bot and Google Sheets
     假別：事假
 ```
 
-- Google Sheets 資料
+- Google Sheets 資料 (會依據月份建立 Sheet)
 
 | 員工  | 日期    | 假別  |
 |:----|-------|-----|
@@ -41,7 +41,6 @@ const CHANNEL_ACCESS_TOKEN = '{{ Your Token }}';
 
 ```sh
 const sheet_url = '{{ Your sheet url }}'
-const sheet_name = '{{ Your sheet name }}';
 ```
 
 3. 將 App Script 存取權限改為「所有人」後部署 (網路應用程式)：
